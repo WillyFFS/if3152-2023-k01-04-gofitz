@@ -1,0 +1,54 @@
+.btn-tanggal {
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    margin: 1px;
+    font-size: 0.9rem;
+    background-color: transparent;
+    border: none;
+}
+
+.mouse-over {
+    border: 1px solid #198754;
+}
+
+.mouse-click {
+    background-color: #198754;
+    color: white;
+}
+
+.tgl-disabled {
+    pointer-events: none;
+    color: #6c757d;
+    text-decoration: line-through;
+}
+
+@media (min-width: 592px) and (max-width: 1355px) {
+    .btn-tanggal {
+        border-radius: 50%;
+        width: 58px;
+        height: 58px;
+        margin: 1px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 452px) and (max-width: 591px) {
+    .btn-tanggal {
+        border-radius: 50%;
+        width: 43px;
+        height: 43px;
+        margin: 1px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 451px) {
+    .btn-tanggal {
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        margin: 1px;
+        font-size: 0.9rem;
+    }
+}

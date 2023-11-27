@@ -1,0 +1,20 @@
+.size-title {
+    font-size: 0.7rem;
+}
+
+.style-dropdown {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 0;
+}
+
+.remove-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+.icon-size {
+    font-size: 0.7rem;
+}

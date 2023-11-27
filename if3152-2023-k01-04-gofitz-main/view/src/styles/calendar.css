@@ -1,0 +1,42 @@
+.tanggal {
+    width: 45px;
+}
+
+.size-hari {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.w-calendar {
+    width: 315px;
+}
+
+@media (min-width: 592px) and (max-width: 1355px) {
+    .tanggal {
+        width: 60px;
+    }
+
+    .w-calendar {
+        width: 420px;
+    }
+}
+
+@media (min-width: 452px) and (max-width: 591px) {
+    .tanggal {
+        width: 45px;
+    }
+
+    .w-calendar {
+        width: 315px;
+    }
+}
+
+@media (max-width: 451px) {
+    .tanggal {
+        width: 30px;
+    }
+
+    .w-calendar {
+        width: 210px;
+    }
+}
